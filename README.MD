@@ -40,10 +40,9 @@
 
 ### Prerequisites
 
-- Java 8  
-- A relational database like MySQL / PostgreSQL installed and running  
-- (Optional) IDE / Text Editor of choice  
-- SpringBoot 2.2
+- Java 8 (JDK 1.8)  
+- Spring Boot 2.2.x  
+- MySQL installed and running  
 
 ### Running the project
 
@@ -52,9 +51,9 @@ mvn spring-boot:run
 
 ## Project Structure
 
-Airplane-Ticketing-System/      ← main application code
-├──  src/                    ← source files
-├──  public/ / static/       ← frontend static assets
-├──  resources/ etc.         ← config, views, etc.
-├── README.md                ← this file
+Airplane-Ticketing-System/ ← main application code
+├── src/ ← source files
+├── public/ / static/ ← frontend static assets
+├── resources/ etc. ← config, views, etc.
+├── README.md ← this file
 └── .gitignore
