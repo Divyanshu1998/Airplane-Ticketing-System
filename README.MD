@@ -10,13 +10,8 @@
 - [Tech Stack](#tech-stack)  
 - [Getting Started](#getting-started)  
   - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
   - [Running the Project](#running-the-project)  
 - [Project Structure](#project-structure)  
-- [Usage](#usage)  
-- [Future Enhancements](#future-enhancements)  
-- [Contributing](#contributing)  
-- [License](#license)  
 
 ---
 
@@ -49,3 +44,17 @@
 - A relational database like MySQL / PostgreSQL installed and running  
 - (Optional) IDE / Text Editor of choice  
 - SpringBoot 2.2
+
+### Running the project
+
+
+mvn spring-boot:run
+
+## Project Structure
+
+Airplane-Ticketing-System/      ← main application code
+├──  src/                    ← source files
+├──  public/ / static/       ← frontend static assets
+├──  resources/ etc.         ← config, views, etc.
+├── README.md                ← this file
+└── .gitignore
