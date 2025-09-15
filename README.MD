@@ -49,11 +49,11 @@
 
 mvn spring-boot:run
 
-<!-- ## Project Structure
+## Project Structure
 
 Airplane-Ticketing-System/ ← main application code
 ├── src/ ← source files
 ├── public/ / static/ ← frontend static assets
 ├── resources/ etc. ← config, views, etc.
 ├── README.md ← this file
-└── .gitignore -->
+└── .gitignore 
